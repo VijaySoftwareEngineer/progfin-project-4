@@ -1,0 +1,230 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    padding: 0;
+    background-color: white; 
+    align-items: center;
+    
+}
+/* Header styling */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to right, #000000, #013a72, #145ca3);
+    color: white;
+    padding: 5px ;
+    width: 33%;
+    margin: 0 auto;
+}
+
+.logo img {
+    width: 100px;
+    height: 30px;
+}
+
+.header-text {
+    text-align: center;
+}
+
+.header-text span {
+    font-size: 14px;
+}
+
+.logo img {
+    width: 100px;
+    height: 30px;
+}
+
+.bsa {
+    margin-left: auto;
+}
+
+/* GSTIN filing status & delay */
+.fin {
+    background-color: #003366;
+    color: white;
+    padding: 3px;
+    margin: 5px auto;
+    text-align: center;
+    width: 30.3%;
+}
+.fin h3 {
+    font-size: 12px;
+    margin: 2px auto;
+}
+/* Table 1st */
+.table-container {
+    width: 30.5%;
+    margin: 0 auto;
+}
+
+.months-table {
+    width: 30.5%;
+    border-collapse: collapse;
+    margin-bottom: 5px;
+}
+
+.months-table th, .months-table td {
+    border: 1px solid #e1e1e1;
+    padding: 4px 5.7px;
+    text-align: center;
+    background-color: #0073cf; /* Header background */
+    color: #fff; /* Header text color */
+    width: 2%; /* Adjust width of each column */
+    font-size: 12px;
+}
+
+.months-table td {
+    background-color: #f2f2f2; /* Cell background */
+    color: #000; /* Cell text color */
+}
+
+.months-table .highlighted {
+    color: red; /* Highlighted text color */
+    font-weight: bold;
+}
+/* divider for seperation */
+.divider {
+    width: 100%;
+    height: 1px;
+    background-color: #0073cf; /* Divider color */
+    margin: 10px 0;
+}
+/* footer for text at end of table 1st */
+.footer-text {
+    font-size: 12px;
+    color: #555;
+    background-color: #eef6ff;
+    padding: 10px;
+    border-radius: 4px;
+    border-left: 5px solid #0073cf; /* Blue border */
+    display: flex;
+    align-items: center;
+}
+
+.footer-text .icon {
+    font-size: 10px;
+    color: #0073cf;
+    margin-right: 7px;
+}
+
+/* 2nd table css */
+.trend-container {
+    width: 30.5%;
+    margin: 0 auto;
+    align-items: center;
+}
+.trend-table {
+    width: 31%;
+    border-collapse: collapse;
+}
+
+
+.trend-table th, .trend-table td {
+    border: 1px solid #f1f1f6;
+    border: 1px dotted #060606;
+    padding: 8.3px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.header-row th {
+    background-color: #0073cf;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.fy-header {
+    background-color: #020202;
+    border: 1px dotted #0a83c4;
+    color: #ffffff;
+    font-weight: bold;
+    width: 6%;
+}
+
+.fy-year {
+    background-color: #f3eeee;
+    color: #0e26dd;
+    font-weight: bold;
+}
+
+.trend-table td.dashed {
+    border-bottom: 1px dashed #0073cf;
+    color: #0073cf;
+}
+
+.trend-table td {
+    background-color: #eef6ff;
+}
+
+.trend-table th, .trend-table td {
+    width: 6%; 
+}
+
+.trend-table td.highlighted {
+    color: red; /* Use this class for highlighted values */
+    font-weight: bold;
+}
+
+.trend-table .header-row th.fy-header {
+    width: 8%;
+}
+/* blueline 3rd */
+.highlights {
+    background-color: #003366; 
+    color: white; 
+    padding: 5px 0; /* Adjust padding vertically to center text */
+    margin: 5px auto; /* Center horizontally */
+    text-align: center; /* Center text horizontally */
+    width: 30.7%; 
+    font-size: 12px; 
+    position: relative;
+    z-index: 1; /* Ensure it appears above other elements */
+    display: flex; /* Use flex to ensure vertical centering */
+    align-items: center; 
+    justify-content: center; 
+}
+
+.highlights h3 {
+    margin: 0; 
+    font-size: 14px;
+}
+/* 3rd table */
+
+table {
+    width: 30.70%; 
+    border-collapse: collapse;
+    border-spacing: 7px; 
+    margin: 0 auto;
+}
+
+th, td {
+    border: 1px solid #ddd; 
+}
+
+th {
+    background-color: #000033; 
+    color: rgb(245, 239, 245);
+    padding: 5px;
+    font-size: 11px;
+    text-align: left;
+}
+
+td, input {
+    background-color: #e787eb;
+    color: rgb(241, 235, 241);
+    padding: 2px; 
+    font-size: 11px;
+}
+
+.equal-width {
+    width: 20%; /* Adjust to 20% to fit 5 columns evenly */
+}
+
+input {
+    width: 100%; 
+    box-sizing: border-box; 
+    color: #003366; 
+}
