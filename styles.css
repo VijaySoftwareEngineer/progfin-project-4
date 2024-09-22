@@ -220,11 +220,60 @@ td, input {
 }
 
 .equal-width {
-    width: 20%; /* Adjust to 20% to fit 5 columns evenly */
+    width: 20%; 
+    padding: 1px;
 }
 
 input {
     width: 100%; 
     box-sizing: border-box; 
+}
+
+/* 4th table css */
+
+table {
+    width: 30.70%;
+    border-collapse: collapse;
+    border-spacing: 7px; 
+    margin: 0 auto;
+}
+
+th, td {
+    border: 1px solid #ddd; 
+}
+
+th {
+    background-color: #000033; 
+    color: rgb(245, 239, 245);
+    padding: 5px;
+    font-size: 11px;
+    text-align: left;
+}
+
+td, input {
+    background-color: #e787eb;
+    color: rgb(241, 235, 241);
+    padding: 2px; 
+    font-size: 11px;
+}
+
+.equal-width {
+    width: 20%; 
+    padding: 1px;
+}
+
+input {
+    width: 100%;
+    box-sizing: border-box;
     color: #003366; 
+}
+/* blueline 4th */
+.blueline {
+    background-color: #003366;
+    text-align: center;
+    position: fixed;
+    left: 50%;
+    width: 30.7%;
+    height: 24px;
+    transform: translateX(-50%);
 }
